@@ -1,0 +1,229 @@
+# Travis CI ignored configs
+# Every line not prepended with a hash (#)
+# will be ignored by the build check tool.
+
+nuttx/configs/zkit-arm-1769/thttpd/defconfig
+nuttx/configs/zkit-arm-1769/hello/defconfig
+nuttx/configs/z8f64200100kit/ostest/defconfig
+nuttx/configs/z8encore000zco/ostest/defconfig
+nuttx/configs/z80sim/pashello/defconfig
+nuttx/configs/z80sim/ostest/defconfig
+nuttx/configs/z80sim/nsh/defconfig
+nuttx/configs/z16f2800100zcog/pashello/defconfig
+nuttx/configs/z16f2800100zcog/ostest/defconfig
+nuttx/configs/z16f2800100zcog/nsh/defconfig
+nuttx/configs/xtrs/pashello/defconfig
+nuttx/configs/xtrs/ostest/defconfig
+nuttx/configs/xtrs/nsh/defconfig
+nuttx/configs/vsn/nsh/defconfig
+nuttx/configs/us7032evb1/ostest/defconfig
+nuttx/configs/us7032evb1/nsh/defconfig
+nuttx/configs/ubw32/nsh/defconfig
+nuttx/configs/teensy/usbmsc/defconfig
+nuttx/configs/teensy/nsh/defconfig
+nuttx/configs/teensy/hello/defconfig
+nuttx/configs/sure-pic32mx/usbnsh/defconfig
+nuttx/configs/sure-pic32mx/nsh/defconfig
+nuttx/configs/stm32vldiscovery/nsh/defconfig
+nuttx/configs/stm32f4discovery/winbuild/defconfig
+nuttx/configs/stm32f4discovery/pm/defconfig
+nuttx/configs/stm32f4discovery/nxlines/defconfig
+nuttx/configs/stm32f4discovery/kostest/defconfig
+nuttx/configs/stm32f4discovery/cxxtest/defconfig
+nuttx/configs/stm3240g-eval/xmlrpc/defconfig
+nuttx/configs/stm3240g-eval/telnetd/defconfig
+nuttx/configs/stm3240g-eval/nxwm/defconfig
+nuttx/configs/stm3240g-eval/nsh2/defconfig
+nuttx/configs/stm3240g-eval/knxwm/defconfig
+nuttx/configs/stm3240g-eval/discover/defconfig
+nuttx/configs/stm3240g-eval/dhcpd/defconfig
+nuttx/configs/stm3220g-eval/telnetd/defconfig
+nuttx/configs/stm3220g-eval/nxwm/defconfig
+nuttx/configs/stm3220g-eval/nsh2/defconfig
+nuttx/configs/stm3220g-eval/dhcpd/defconfig
+nuttx/configs/stm3210e-eval/usbmsc/defconfig
+nuttx/configs/stm3210e-eval/pm/defconfig
+nuttx/configs/stm3210e-eval/nxterm/defconfig
+nuttx/configs/stm3210e-eval/nsh2/defconfig
+nuttx/configs/stm3210e-eval/composite/defconfig
+nuttx/configs/spark/usbserial/defconfig
+nuttx/configs/spark/usbnsh/defconfig
+nuttx/configs/spark/usbmsc/defconfig
+nuttx/configs/spark/nsh/defconfig
+nuttx/configs/spark/composite/defconfig
+nuttx/configs/skp16c26/ostest/defconfig
+nuttx/configs/arduino-due/nsh/defconfig
+nuttx/configs/pirelli_dpl10/nsh_highram/defconfig
+nuttx/configs/lm3s8962-ek/nx/defconfig
+nuttx/configs/lm3s8962-ek/nsh/defconfig
+nuttx/configs/mcu123-lpc214x/usbserial/defconfig
+nuttx/configs/mcu123-lpc214x/nsh/defconfig
+nuttx/configs/mcu123-lpc214x/composite/defconfig
+nuttx/configs/mcu123-lpc214x/usbmsc/defconfig
+nuttx/configs/lpcxpresso-lpc1768/thttpd/defconfig
+nuttx/configs/lpcxpresso-lpc1768/nx/defconfig
+nuttx/configs/lpcxpresso-lpc1768/nsh/defconfig
+nuttx/configs/lpcxpresso-lpc1768/usbmsc/defconfig
+nuttx/configs/lpcxpresso-lpc1768/dhcpd/defconfig
+nuttx/configs/sam4s-xplained/nsh/defconfig
+nuttx/configs/rgmp/arm/nsh/defconfig
+nuttx/configs/rgmp/arm/default/defconfig
+nuttx/configs/rgmp/x86/cxxtest/defconfig
+nuttx/configs/rgmp/x86/nsh/defconfig
+nuttx/configs/rgmp/x86/default/defconfig
+nuttx/configs/rgmp/x86/helloxx/defconfig
+nuttx/configs/nutiny-nuc120/nsh/defconfig
+nuttx/configs/sama5d3-xplained/nsh/defconfig
+nuttx/configs/sama5d3-xplained/bridge/defconfig
+nuttx/configs/ez80f910200kitg/ostest/defconfig
+nuttx/configs/eagle100/thttpd/defconfig
+nuttx/configs/eagle100/httpd/defconfig
+nuttx/configs/eagle100/nxflat/defconfig
+nuttx/configs/eagle100/nettest/defconfig
+nuttx/configs/avr32dev1/nsh/defconfig
+nuttx/configs/avr32dev1/ostest/defconfig
+nuttx/configs/sim/bas/defconfig
+nuttx/configs/sama5d3x-ek/nxwm/defconfig
+nuttx/configs/sama5d3x-ek/nx/defconfig
+nuttx/configs/sama5d3x-ek/ov2640/defconfig
+nuttx/configs/sama5d3x-ek/norboot/defconfig
+nuttx/configs/sama5d3x-ek/hello/defconfig
+nuttx/configs/sama5d3x-ek/nxplayer/defconfig
+nuttx/configs/sama5d3x-ek/demo/defconfig
+nuttx/configs/micropendous3/hello/defconfig
+nuttx/configs/compal_e99/nsh_compalram/defconfig
+nuttx/configs/compal_e99/nsh_highram/defconfig
+
+nuttx/configs/c5471evm/nsh/defconfig
+nuttx/configs/c5471evm/nettest/defconfig
+nuttx/configs/c5471evm/httpd/defconfig
+nuttx/configs/sam4l-xplained/nsh/defconfig
+nuttx/configs/ntosd-dm320/thttpd/defconfig
+nuttx/configs/ntosd-dm320/webserver/defconfig
+nuttx/configs/ntosd-dm320/nettest/defconfig
+nuttx/configs/ntosd-dm320/poll/defconfig
+nuttx/configs/mirtoo/nxffs/defconfig
+nuttx/configs/mirtoo/nsh/defconfig
+nuttx/configs/olimex-strp711/nsh/defconfig
+nuttx/configs/olimex-strp711/nettest/defconfig
+nuttx/configs/ea3131/pgnsh/defconfig
+nuttx/configs/ea3131/usbserial/defconfig
+nuttx/configs/ea3131/nsh/defconfig
+nuttx/configs/nucleus2g/nsh/defconfig
+nuttx/configs/nucleus2g/usbmsc/defconfig
+nuttx/configs/open1788/knsh/defconfig
+nuttx/configs/sama5d4-ek/nxwm/defconfig
+nuttx/configs/sama5d4-ek/ramtest/defconfig
+nuttx/configs/sama5d4-ek/at25boot/defconfig
+nuttx/configs/sama5d4-ek/knsh/defconfig
+nuttx/configs/sama5d4-ek/dramboot/defconfig
+nuttx/configs/sama5d4-ek/bridge/defconfig
+nuttx/configs/sama5d4-ek/elf/defconfig
+nuttx/configs/ea3152/ostest/defconfig
+nuttx/configs/ne64badge/ostest/defconfig
+nuttx/configs/p112/ostest/defconfig
+nuttx/configs/demo9s12ne64/ostest/defconfig
+nuttx/configs/mx1ads/ostest/defconfig
+nuttx/configs/mikroe-stm32f4/fulldemo/defconfig
+nuttx/configs/mikroe-stm32f4/kostest/defconfig
+nuttx/configs/mikroe-stm32f4/nxtext/defconfig
+nuttx/configs/mikroe-stm32f4/nx/defconfig
+nuttx/configs/mikroe-stm32f4/nsh/defconfig
+# The moteino configs need the ATMEL IDE installed
+nuttx/configs/moteino-mega/hello/defconfig
+nuttx/configs/moteino-mega/nsh/defconfig
+nuttx/configs/amber/hello/defconfig
+nuttx/configs/qemu-i486/nsh/defconfig
+nuttx/configs/qemu-i486/ostest/defconfig
+nuttx/configs/ez80f910200zco/nsh/defconfig
+nuttx/configs/ez80f910200zco/httpd/defconfig
+nuttx/configs/ez80f910200zco/nettest/defconfig
+nuttx/configs/ez80f910200zco/dhcpd/defconfig
+nuttx/configs/ez80f910200zco/poll/defconfig
+nuttx/configs/ekk-lm3s9b96/nsh/defconfig
+nuttx/configs/olimex-lpc1766stk/thttpd/defconfig
+nuttx/configs/shenzhou/thttpd/defconfig
+nuttx/configs/shenzhou/nxwm/defconfig
+nuttx/configs/shenzhou/nsh/defconfig
+nuttx/configs/samd20-xplained/nsh/defconfig
+nuttx/configs/sam4s-xplained-pro/nsh/defconfig
+nuttx/configs/sam4e-ek/nxwm/defconfig
+nuttx/configs/sam3u-ek/nxwm/defconfig
+nuttx/configs/sam3u-ek/knsh/defconfig
+nuttx/configs/pic32mx7mmb/nsh/defconfig
+nuttx/configs/pic32-starterkit/nsh2/defconfig
+nuttx/configs/pic32-starterkit/nsh/defconfig
+nuttx/configs/pcduino-a10/nsh/defconfig
+nuttx/configs/pcblogic-pic32mx/nsh/defconfig
+nuttx/configs/olimex-lpc1766stk/zmodem/defconfig
+nuttx/configs/olimex-lpc1766stk/usbmsc/defconfig
+nuttx/configs/olimex-lpc1766stk/slip-httpd/defconfig
+nuttx/configs/olimex-lpc1766stk/nettest/defconfig
+nuttx/configs/olimex-lpc1766stk/hidkbd/defconfig
+nuttx/configs/olimex-lpc-h3131/nsh/defconfig
+nuttx/configs/lm4f120-launchpad/nsh/defconfig
+nuttx/configs/lm3s6965-ek/tcpecho/defconfig
+nuttx/configs/lm3s6965-ek/nx/defconfig
+nuttx/configs/lm3s6965-ek/nsh/defconfig
+nuttx/configs/lm3s6965-ek/discover/defconfig
+nuttx/configs/hymini-stm32v/usbmsc/defconfig
+nuttx/configs/hymini-stm32v/nsh2/defconfig
+nuttx/configs/fire-stm32v2/nsh/defconfig
+
+# Configs which build, but are exceeding the 50 minute time limit:
+nuttx/configs/stm32f4discovery/elf/defconfig
+nuttx/configs/stm3210e-eval/buttons/defconfig
+nuttx/configs/zkit-arm-1769/nxhello/defconfig
+nuttx/configs/viewtool-stm32f107/highpri/defconfig
+nuttx/configs/stm32f4discovery/nsh/defconfig
+nuttx/configs/stm32f429i-disco/nsh/defconfig
+nuttx/configs/stm3240g-eval/nxterm/defconfig
+nuttx/configs/stm3220g-eval/nsh/defconfig
+nuttx/configs/stm3210e-eval/nx/defconfig
+nuttx/configs/olimex-lpc1766stk/nx/defconfig
+nuttx/configs/hymini-stm32v/buttons/defconfig
+nuttx/configs/maple/nx/defconfig
+nuttx/configs/freedom-kl25z/minnsh/defconfig
+nuttx/configs/ntosd-dm320/nsh/defconfig
+nuttx/configs/stm3240g-eval/nsh/defconfig
+nuttx/configs/stm3210e-eval/nsh/defconfig
+nuttx/configs/stm32f429i-disco/ltdc/defconfig
+nuttx/configs/mbed/nsh/defconfig
+nuttx/configs/sim/traveler/defconfig
+nuttx/configs/sim/touchscreen/defconfig
+nuttx/configs/sim/pashello/defconfig
+# XXX enable the ostest config as soon as the env setup
+# issue has been resolved
+nuttx/configs/sim/ostest/defconfig
+nuttx/configs/sim/nxwm/defconfig
+nuttx/configs/sim/nxlines/defconfig
+nuttx/configs/sim/nsh2/defconfig
+# CONFIG sim/nettest: Has an actual compile error
+nuttx/configs/sim/nettest/defconfig
+# CONFIG sim/mtdpart, CONFIG sim/mtdrwb:
+#
+# the tool build step fails with this error, I have not yet worked out how to fix this.
+#
+# make[1]: Entering directory `/home/travis/build/PX4/NuttX/nuttx/tools'
+# In file included from /usr/include/string.h:27:0,
+#                 from mkconfig.c:40:
+# /usr/include/features.h:324:26: fatal error: bits/predefs.h: No such file or directory
+# compilation terminated.
+# In file included from /usr/include/string.h:27:0,
+#                  from cfgdefine.c:40:
+# /usr/include/features.h:324:26: fatal error: bits/predefs.h: No such file or directory
+# compilation terminated.
+# make[1]: *** [mkconfig] Error 1
+# make[1]: Leaving directory `/home/travis/build/PX4/NuttX/nuttx/tools'
+# make: *** [tools/mkconfig] Error 2
+nuttx/configs/sim/mtdrwb/defconfig
+nuttx/configs/sim/mtdpart/defconfig
+#nuttx/configs/sim/mount/defconfig
+# CONFIG sim/cxxtest: unmet uclibC++ depencendy (or rather, missing ./install.sh
+# step).
+nuttx/configs/sim/cxxtest/defconfig
+#nuttx/configs/sim/configdata/defconfig
+
+# These need osmocom to build:
+nuttx/configs/compal_e88/nsh_highram/defconfig
+nuttx/configs/compal_e86/nsh_highram/defconfig
