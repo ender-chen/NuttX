@@ -363,7 +363,10 @@ int up_rtcinitialize(void)
    * drive the RTC.
    */
 
-  stm32_pwr_enablebkp();
+  /* Enable write access to the backup domain (RTC registers, RTC backup data registers
+   * and backup SRAM).
+   */
+  stm32_pwr_enablebkp(true);
   stm32_rcc_enablelse();
 
   /* TODO: Get state from this function, if everything is
@@ -402,6 +405,12 @@ int up_rtcinitialize(void)
   /* Alarm Int via EXTI Line */
 
   /* STM32_IRQ_RTCALRM  41: RTC alarm through EXTI line interrupt */
+
+  /* Disable write access to the backup domain (RTC registers, RTC backup data registers
+   * and backup SRAM).
+   */
+
+  stm32_pwr_enablebkp(false);
 
   return OK;
 }

@@ -219,6 +219,13 @@ static void rtc_dumptime(FAR struct tm *tp, FAR const char *msg)
 
 static void rtc_wprunlock(void)
 {
+
+  /* Enable write access to the backup domain (RTC registers, RTC backup data registers
+   * and backup SRAM).
+   */
+
+  stm32_pwr_enablebkp(true);
+
   /* The following steps are required to unlock the write protection on all the
    * RTC registers (except for RTC_ISR[13:8], RTC_TAFCR, and RTC_BKPxR).
    *
@@ -251,6 +258,13 @@ static inline void rtc_wprlock(void)
   /* Writing any wrong key reactivates the write protection. */
 
   putreg32(0xff, STM32_RTC_WPR);
+
+  /* Disable write access to the backup domain (RTC registers, RTC backup data registers
+   * and backup SRAM).
+   */
+
+  stm32_pwr_enablebkp(false);
+
 }
 
 /************************************************************************************
@@ -645,11 +659,6 @@ int up_rtcinitialize(void)
    * maximum performance.
    */
 
-  /* Enable access to the backup domain (RTC registers, RTC backup data registers
-   * and backup SRAM).
-   */
-
-  stm32_pwr_enablebkp();
   rtc_dumpregs("On reset");
 
   /* Enable the External Low-Speed (LSE) Oscillator setup the LSE as the RTC clock
@@ -678,6 +687,11 @@ int up_rtcinitialize(void)
           ret = rtc_setup();
 
           /* Remember that the RTC is initialized */
+          /* Enable write access to the backup domain (RTC registers, RTC backup data registers
+           * and backup SRAM).
+           */
+
+          stm32_pwr_enablebkp(true);
 
           putreg32(RTC_MAGIC, STM32_RTC_BK0R);
         }
@@ -709,6 +723,12 @@ int up_rtcinitialize(void)
         }
     }
   while (ret != OK && ++nretry < maxretry);
+
+  /* Disable write access to the backup domain (RTC registers, RTC backup data registers
+   * and backup SRAM).
+   */
+
+  stm32_pwr_enablebkp(false);
 
   if (ret != OK && nretry > 0)
     {
