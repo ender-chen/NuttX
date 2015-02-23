@@ -35,5 +35,3 @@ addons:
     bucket: nuttx-travis
 notifications:
   email:
-    - spudarnia@yahoo.com
-    - lorenz@px4.io
