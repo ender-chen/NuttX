@@ -46,11 +46,6 @@ nuttx/configs/stm3210e-eval/pm/defconfig
 nuttx/configs/stm3210e-eval/nxterm/defconfig
 nuttx/configs/stm3210e-eval/nsh2/defconfig
 nuttx/configs/stm3210e-eval/composite/defconfig
-nuttx/configs/spark/usbserial/defconfig
-nuttx/configs/spark/usbnsh/defconfig
-nuttx/configs/spark/usbmsc/defconfig
-nuttx/configs/spark/nsh/defconfig
-nuttx/configs/spark/composite/defconfig
 nuttx/configs/skp16c26/ostest/defconfig
 nuttx/configs/arduino-due/nsh/defconfig
 nuttx/configs/pirelli_dpl10/nsh_highram/defconfig
@@ -151,8 +146,9 @@ nuttx/configs/sam4e-ek/nxwm/defconfig
 nuttx/configs/sam3u-ek/nxwm/defconfig
 nuttx/configs/sam3u-ek/knsh/defconfig
 nuttx/configs/pic32mx7mmb/nsh/defconfig
-nuttx/configs/pic32-starterkit/nsh2/defconfig
-nuttx/configs/pic32-starterkit/nsh/defconfig
+nuttx/configs/pic32mx-starterkit/nsh/defconfig
+nuttx/configs/pic32mx-starterkit/nsh2/defconfig
+nuttx/configs/pic32mz-starterkit/nsh/defconfig
 nuttx/configs/pcduino-a10/nsh/defconfig
 nuttx/configs/pcblogic-pic32mx/nsh/defconfig
 nuttx/configs/olimex-lpc1766stk/zmodem/defconfig
