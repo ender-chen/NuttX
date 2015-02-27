@@ -1059,7 +1059,7 @@ config BOARD_CRASHDUMP
 		to more sophisticated storage in a sane operating environment.
 
 config BOARD_RESET_ON_CRASH
-	bool "Eanble Board Reset the crashdump is saved"
+	bool "Eanble Board Reset after the crashdump is saved"
 	default n
 	depends on BOARD_CRASHDUMP
 	---help---
