@@ -522,6 +522,10 @@ void up_rnginitialize(void);
 void up_stack_color(FAR void *stackbase, size_t nbytes);
 #endif
 
+#ifdef CONFIG_BOARD_CRASHDUMP
+void board_crashdump(uint32_t currentsp, void *tcb, uint8_t *filename, int lineno);
+#endif
+
 #undef EXTERN
 #ifdef __cplusplus
 }
